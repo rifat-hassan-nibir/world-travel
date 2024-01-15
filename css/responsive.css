@@ -7,6 +7,10 @@
     padding: 0px 20px;
   }
 
+  nav {
+    margin: 20px 0;
+  }
+
   .desktop-menu {
     display: none;
   }
@@ -14,6 +18,10 @@
   .hamburger {
     display: block;
     font-size: 20px;
+  }
+
+  .logo {
+    width: 70%;
   }
 
   .logo h3 {
