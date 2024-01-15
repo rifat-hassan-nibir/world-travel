@@ -32,4 +32,35 @@
   .logo img {
     width: 40px;
   }
+
+  /* Banner Section */
+
+  .banner-section {
+    padding: 32px 24px;
+    height: 482px;
+  }
+
+  .banner-section h1 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .banner-section p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 32px;
+  }
+
+  .banner-form form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+  }
+  .banner-form button {
+    width: 100%;
+  }
 }

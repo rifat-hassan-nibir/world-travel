@@ -133,6 +133,9 @@ nav {
       rgba(19, 19, 24, 0) 100%
     ),
     url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -153,14 +156,14 @@ nav {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  width: 676px;
+  max-width: 676px;
   margin-bottom: 48px;
 }
 
 .banner-form {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
-  width: 800px;
+  max-width: 800px;
 }
 
 .banner-form form {
@@ -168,7 +171,6 @@ nav {
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
   padding: 16px;
-  justify-content: center;
 }
 
 .flex-form {
