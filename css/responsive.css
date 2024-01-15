@@ -1,2 +1,27 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap");
+
+@media screen and (max-width: 600px) {
+  /* ---- Header Styles ---- */
+  body {
+    padding: 0px 20px;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 20px;
+  }
+
+  .logo h3 {
+    color: #131318;
+    font-size: 21px;
+  }
+
+  .logo img {
+    width: 40px;
+  }
+}
