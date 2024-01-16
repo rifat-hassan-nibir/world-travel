@@ -101,6 +101,10 @@
     font-size: 20px;
     font-weight: 700;
   }
+
+  .choose-your-destination-section .section-title {
+    font-size: 20px;
+  }
   .choose-your-destination-section .section-text-two {
     margin-bottom: 0px;
   }
