@@ -38,6 +38,7 @@
   .banner-section {
     padding: 32px 24px;
     height: 482px;
+    margin-bottom: 24px;
   }
 
   .banner-section h1 {
@@ -54,13 +55,38 @@
   }
 
   .banner-form form {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 16px;
     padding: 16px;
     justify-content: center;
   }
+
+  .banner-form form input,
+  .banner-form form select {
+    width: auto;
+  }
+
   .banner-form button {
     width: 100%;
+  }
+
+  /* Our Popular Tours Section */
+
+  .our-popular-tours {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .our-popular-tours-content .section-title {
+    font-size: 20px;
+  }
+
+  .our-popular-tours-content {
+    gap: 16px;
+  }
+
+  .our-popular-tours-content .button {
+    margin-top: 0px;
   }
 }

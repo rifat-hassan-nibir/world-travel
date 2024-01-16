@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Mulish", sans-serif;
 }
 
 .container {
@@ -25,13 +26,8 @@ img {
   width: 100%;
 }
 
-body {
-  font-family: "Mulish", sans-serif;
-}
-
 .section-title {
   color: #131318;
-  text-align: center;
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
@@ -49,16 +45,14 @@ body {
 .button a {
   color: #fff;
   text-align: center;
-  font-family: Mulish;
   font-size: 20px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   line-height: normal;
 }
 
 .section-text-one {
   color: rgba(19, 19, 24, 0.7);
-  text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -67,7 +61,6 @@ body {
 
 .section-text-two {
   color: #5a5a5d;
-  font-family: Mulish;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -140,6 +133,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .banner-section h1 {
@@ -167,8 +161,7 @@ nav {
 }
 
 .banner-form form {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   gap: 24px;
   padding: 16px;
 }
@@ -180,15 +173,14 @@ nav {
 .banner-form form input,
 .banner-form form select {
   color: rgba(19, 19, 24, 0.5);
-  font-family: Mulish;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   border-radius: 8px;
   background: #fff;
   border: none;
   padding: 16px;
+  width: 174px;
 }
 
 .banner-form .button a {
@@ -203,4 +195,34 @@ nav {
 
 .banner-form .button a i {
   margin-right: 8px;
+}
+
+/* Our Popular Tours Section */
+.our-popular-tours {
+  display: flex;
+  gap: 55px;
+  align-items: center;
+}
+
+.our-popular-tours-content {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.our-popular-tours-image {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.our-popular-tours-content ul li {
+  list-style-type: disc;
+  margin-left: 30px;
+  max-width: 500px;
+}
+
+.our-popular-tours-content .button {
+  margin-top: 8px;
 }
