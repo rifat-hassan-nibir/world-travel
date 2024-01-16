@@ -95,6 +95,7 @@
 
   .choose-your-destination-section {
     gap: 16px;
+    margin-bottom: 24px;
   }
 
   .item h4 {
@@ -105,7 +106,8 @@
   .choose-your-destination-section .section-title {
     font-size: 20px;
   }
-  .choose-your-destination-section .section-text-two {
+  .choose-your-destination-section .section-text-one {
+    padding: 0 30px;
     margin-bottom: 0px;
   }
 
@@ -120,5 +122,23 @@
       "kash"
       "bang"
       "band";
+  }
+
+  /* Why Choose Us Section */
+
+  .why-choose-us-section {
+    margin-bottom: 24px;
+  }
+
+  .why-choose-us-section .section-title,
+  .small-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .why-choose-us-section .section-text-one {
+    font-size: 14px;
+    margin-bottom: 16px;
+    padding: 0 30px;
   }
 }
