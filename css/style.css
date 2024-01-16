@@ -443,3 +443,82 @@ nav {
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
 }
+
+/* ---- Newsletter Form Section ---- */
+
+.newsletter-section {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 100px;
+}
+
+.newsletter-form-section {
+  width: 35%;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.newsletter-form input {
+  padding: 16px 251px 16px 20px;
+  color: rgba(19, 19, 24, 0.3);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+}
+
+.newsletter-form-section hr {
+  border: 1px solid rgba(19, 19, 24, 0.1);
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+}
+.newsletter-form input {
+  padding: 16px 251px 16px 20px;
+}
+
+.newsletter-form button {
+  width: 100%;
+}
+.newsletter-image {
+  width: 65%;
+  position: relative;
+}
+
+.newsletter-image-sticker {
+  width: 324px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  color: #fff;
+  position: absolute;
+  bottom: 55px;
+  right: 10px;
+}
+
+.newsletter-image-sticker p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.newsletter-image-sticker h4 {
+  font-size: 32px;
+  font-weight: 800;
+}

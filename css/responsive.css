@@ -141,4 +141,47 @@
     margin-bottom: 16px;
     padding: 0 20px;
   }
+
+  /* Newsletter Section */
+  .newsletter-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .newsletter-form-section {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+    display: flex;
+    gap: 16px;
+  }
+
+  .newsletter-form-section .small-title {
+    margin-bottom: 0px;
+  }
+
+  .newsletter-image {
+    width: 100%;
+    position: relative;
+  }
+
+  .newsletter-image-sticker {
+    width: 215px;
+    height: 80px;
+    bottom: 45px;
+    right: 10px;
+    border-radius: 10px;
+  }
+
+  .newsletter-image-sticker p {
+    font-size: 16px;
+  }
+
+  .newsletter-image-sticker h4 {
+    font-size: 22px;
+  }
 }
