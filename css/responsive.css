@@ -91,6 +91,40 @@
     margin-top: 0px;
   }
 
+  /* Our Features Section */
+
+  .our-features-section {
+    margin-bottom: 24px;
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .our-features-section .section-title {
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+
+  .our-features-section .section-text-one {
+    padding: 0 20px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .single-feature {
+    align-items: center;
+    gap: 8px;
+    padding: 24px;
+  }
+
+  .single-feature .small-title {
+    margin-bottom: 0px;
+  }
+
   /* ---- Choose Your Destination Section ---- */
 
   .choose-your-destination-section {
