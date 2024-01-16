@@ -8,6 +8,11 @@
     padding: 0px 20px;
   }
 
+  .section-text-one,
+  .section-text-two {
+    font-size: 14px;
+  }
+
   nav {
     margin: 20px 0;
   }
