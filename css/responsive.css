@@ -73,9 +73,10 @@
 
   /* Our Popular Tours Section */
 
-  .our-popular-tours {
+  .our-popular-tours-section {
     flex-direction: column;
     gap: 24px;
+    margin-bottom: 24px;
   }
 
   .our-popular-tours-content .section-title {
@@ -88,5 +89,32 @@
 
   .our-popular-tours-content .button {
     margin-top: 0px;
+  }
+
+  /* ---- Choose Your Destination Section ---- */
+
+  .choose-your-destination-section {
+    gap: 16px;
+  }
+
+  .item h4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .choose-your-destination-section .section-text-two {
+    margin-bottom: 0px;
+  }
+
+  .images-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-areas:
+      "mal"
+      "indo"
+      "sri"
+      "north-a"
+      "kash"
+      "bang"
+      "band";
   }
 }

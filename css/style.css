@@ -28,6 +28,7 @@ img {
 
 .section-title {
   color: #131318;
+  text-align: center;
   font-size: 40px;
   font-style: normal;
   font-weight: 800;
@@ -53,6 +54,7 @@ img {
 
 .section-text-one {
   color: rgba(19, 19, 24, 0.7);
+  text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -61,10 +63,17 @@ img {
 
 .section-text-two {
   color: #5a5a5d;
+  text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ---- Header Styles ---- */
@@ -197,11 +206,13 @@ nav {
   margin-right: 8px;
 }
 
-/* Our Popular Tours Section */
-.our-popular-tours {
+/* ---- Our Popular Tours Section ---- */
+
+.our-popular-tours-section {
   display: flex;
   gap: 55px;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .our-popular-tours-content {
@@ -225,4 +236,147 @@ nav {
 
 .our-popular-tours-content .button {
   margin-top: 8px;
+}
+
+/* ---- Choose Your Destination Section ---- */
+
+.choose-your-destination-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 100px;
+}
+
+.item h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.choose-your-destination-section .section-text-two {
+  margin-bottom: 24px;
+  max-width: 643px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  height: 300px;
+  background-color: #ff5400;
+}
+
+.item h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.mal {
+  grid-area: mal;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 5.png"), lightgray 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.indo {
+  grid-area: indo;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 8.png"), lightgray 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sri {
+  grid-area: sri;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 6.png"), lightgray 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.north-a {
+  grid-area: north-a;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 7.png"), lightgray 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kash {
+  grid-area: kash;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 9.png"), lightgray 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bang {
+  grid-area: bang;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 11.png"), lightgray 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.band {
+  grid-area: band;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 10.png"), lightgray 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.images-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-areas:
+    "mal mal mal mal mal mal indo indo indo indo indo indo"
+    "sri sri sri sri north-a north-a north-a north-a north-a kash kash kash"
+    "bang bang bang bang bang band band band band band band band";
 }
