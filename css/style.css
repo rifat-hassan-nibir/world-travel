@@ -498,7 +498,7 @@ nav {
 }
 
 .newsletter-form-section {
-  width: 35%;
+  flex-basis: 35%;
   padding: 40px;
   border-radius: 16px;
   border: 1px solid #ff5400;
@@ -539,7 +539,7 @@ nav {
   width: 100%;
 }
 .newsletter-image {
-  width: 65%;
+  flex-basis: 65%;
   position: relative;
 }
 
