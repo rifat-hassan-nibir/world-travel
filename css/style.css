@@ -35,6 +35,15 @@ img {
   line-height: normal;
 }
 
+.small-title {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
 .button {
   width: 174px;
   height: 52px;
@@ -63,7 +72,7 @@ img {
 
 .section-text-two {
   color: #5a5a5d;
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -255,7 +264,7 @@ nav {
   line-height: normal;
 }
 
-.choose-your-destination-section .section-text-two {
+.choose-your-destination-section .section-text-one {
   margin-bottom: 24px;
   max-width: 643px;
   margin-left: auto;
@@ -379,4 +388,58 @@ nav {
     "mal mal mal mal mal mal indo indo indo indo indo indo"
     "sri sri sri sri north-a north-a north-a north-a north-a kash kash kash"
     "bang bang bang bang bang band band band band band band band";
+}
+
+/* Why Choose Us Section */
+
+.why-choose-us-section {
+  margin-bottom: 100px;
+}
+
+.why-choose-us-section .section-title {
+  margin-bottom: 24px;
+}
+
+.why-choose-us-section .section-text-one {
+  max-width: 643px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+
+.why-choose-us-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.why-choose-us-single-card {
+  padding: 32px 55px 32px 32px;
+  flex-basis: 483px;
+  border-radius: 16px;
+}
+
+.why-choose-us-single-card img {
+  width: 64px;
+  margin-bottom: 32px;
+}
+
+.why-choose-us-single-card .small-title {
+  margin-bottom: 16px;
+}
+
+.card-1 {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.card-3 {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
 }
