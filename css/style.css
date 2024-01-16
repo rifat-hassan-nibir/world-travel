@@ -247,6 +247,47 @@ nav {
   margin-top: 8px;
 }
 
+/* ---- Our Features Section ---- */
+.our-features-section {
+  margin-bottom: 100px;
+}
+
+.our-features-section .section-title {
+  margin-bottom: 24px;
+}
+
+.our-features-section .section-text-one {
+  max-width: 643px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features {
+  display: flex;
+  gap: 24px;
+}
+
+.single-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.single-feature .section-text-two {
+  text-align: center;
+}
+
+.feature-number {
+  display: inline-block;
+  background-color: #ff5400;
+  font-size: 16px;
+  padding: 15px;
+  color: white;
+  border-radius: 8px;
+}
+
 /* ---- Choose Your Destination Section ---- */
 
 .choose-your-destination-section {
